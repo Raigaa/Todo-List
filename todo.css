@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+}
+
+
+.header {
+    
+    background-color: #334195;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+}
+
+#bgColor {
+    
+    background-color: #647aa3;
+    padding-bottom: 270px;
+    padding-top: 100px;
+}
+
+#taskInput, #addTaskButton, #taskCommment {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.todoBody {
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.listTodo {
+    margin-top: 10px;
+}
+
+.listTodo li {
+    list-style: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ececec;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listTodo li .deleteButton {
+    background-color: #ff6961;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.listTodo li .deleteButton:hover {
+    background-color: #e8564b;
+}
+
+.todoTitle {
+    font-size: 24px;
+    margin: 0;
+    padding: 10px;
+}
+
+.todoTitle {
+    text-align: center;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="todo.css" />
+    <title>My TODO</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="header">
+        <h1 class="todoTitle">MY TODO</h1>
+      </div>
+    </header>
+    <div id="bgColor">
+      <div class="todoBody">
+        <div class="todoElement">
+          <input
+            type="text"
+            class="inputAddTask"
+            id="taskInput"
+            placeholder="Add a new Task !"
+          />
+          <!--
+            Have to be setup 
+            <input
+            type="text"
+            class="inputAddTask"
+            id="taskComment"
+            placeholder="Add a comment"
+          /> -->
+          <button id="addTaskButton">Ajouter</button>
+          <div class="listTodo">
+            <ul id="todoList"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="todo.js"></script>
+</html>
